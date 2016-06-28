@@ -8,12 +8,3 @@ With this version of WMF, the pull server can control which configuration each t
 
 #### 3. View Target Node reporting information.
 Each target node now sends up all of the information found in get-DscConfigurationStatus cmdlet to the pull server. All of this information is stored in the pull server's database. This feature provides a very raw view of all of the reporting information. The bulk of the interesting information is stored as raw json in the _StatusData_ field.
-
-##Session 
-[What's Up with DSC Pull Server](https://www.youtube.com/watch?v=y3-_XBQTpS8) (YouTube Video)
-
-##Repo contents
-Visual Studio solution and associated C# and ASPX code files.
-
-##See Also
-Use the configuration from the [PSSummitEU2015](https://github.com/grayzu/PSSummitEU2015) Repo to deploy the pull server and install this WebApp to the default website.
